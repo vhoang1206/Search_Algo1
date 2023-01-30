@@ -4,9 +4,7 @@ class Graph:
     def __init__(self):
         # default dictionary to store graph
         self.graph = defaultdict(list)
-        self.count_node = 0
     # function to add an edge to graph
-
     def addEdge(self, u, v):
         self.graph[u].append(v)
 
